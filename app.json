@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/student/mine for student/mine for student",
+    "pages/student/sign for student/sign for student"
+   
+    
+  
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "易点灵",
+    "navigationBarTextStyle":"white"
+    
+  },
+  "tabBar": {
+    "list": [ {
+      "pagePath": "pages/student/sign for student/sign for student",
+      "text": "签到",
+      "iconPath": "/image/Tag-Outline.png",
+      "selectedIconPath": "/image/Tag-Fill.png"
+    },{
+      "pagePath": "pages/student/mine for student/mine for student",
+      "text": "我的",
+      "iconPath": "/image/home-Outline.png",
+      "selectedIconPath": "/image/home-Fill.png"
+      
+    }
+   
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
